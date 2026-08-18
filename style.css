@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 560px;
+    background-color: rgb(244, 244, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url(music_logo.jpg);
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.box1 a {
+    padding: 10px 30px 3px;
+    text-decoration: none;
+    color: #f5f0f0;
+
+}
+
+.box1 a:hover {
+    background-color: rgb(35, 35, 54);
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+        border: rgb(47, 35, 47);
+}
+
+.box2 a {
+    padding: 5px 30px 3px;
+    text-decoration: none;
+    color: #f5f0f0;
+
+}
+.box2 p{
+    color: white;
+    padding: 30px;
+}
+
+.box2 a:hover {
+    background-color: rgb(35, 35, 54);
+}
+
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    border: rgb(47, 35, 47);
+}
+
+.box3 a {
+    padding: 5px 30px 3px;
+    text-decoration: none;
+    color: #f5f0f0;
+
+}
+.box3 p{
+    color: white;
+    padding: 30px;
+}
+
+.box3 a:hover {
+    background-color: rgb(35, 35, 54);
+}

@@ -101,3 +101,19 @@
     gap:20px;
     margin-bottom:34px;
   }
+    .album-art{
+    width:118px;height:118px;
+    border-radius:14px;
+    background-size:cover;
+    background-position:center;
+    box-shadow:0 10px 24px rgba(0,0,0,.4);
+  }
+   .play-all{
+    display:flex;flex-direction:column;align-items:center;gap:12px;
+    padding-left:10px;
+  }
+   .content{
+    display:grid;
+    grid-template-columns:1fr 420px;
+    gap:60px;
+  }

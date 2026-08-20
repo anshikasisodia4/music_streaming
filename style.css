@@ -22,7 +22,7 @@ body {
 .sidebar {
     width: 250px;
     height: 100vh;
-    background-color: #0d0d0d;
+    /* background-color: #0d0d0d; */
     padding: 20px;
 }
 
@@ -59,14 +59,14 @@ li {
     padding: 10px;
 }
 .playlist-box {
-    background-color: #1a1a1a;
+    background-color: #1a0a29;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
 .playlist-box.active {
-    background-color: #33101d;
+    /* background-color: #33101d; */
     border-left: 4px solid hotpink;
 }
 
@@ -90,3 +90,50 @@ button {
     border-radius: 20px;
     cursor: pointer;
 }
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .search-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+   
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 14px 20px;
+  }
+
+  .search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .search-box input::placeholder {
+    color: gray;
+  }
+
+  .search-icon {
+    color: gray;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .icon-button {
+    width: 44px;
+    height: 44px;
+  
+    border: 1px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+  }

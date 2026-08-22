@@ -13,133 +13,324 @@
 <body>
     <div class="container">
 
-    <div class="topbar">
-        <div class="search-box">
-            <input type="text" placeholder="Search song, artists, albums or podcast">
-            <span class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </span>
+        <div class="body-wrap">
+
+            <div class="sidebar">
+                <div class="top-section">
+                    <h1> Music</h1>
+
+                    <div class="top-box">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </div>
+
+                    <div class="top-box">
+                        <i class="fa-solid fa-compass"></i>
+
+                        <p>Discover</p>
+                    </div>
+
+                    <div class="top-box">
+                        <i class="fa-solid fa-heart"></i>
+                        <p> Liked Songs</p>
+                    </div>
+
+                    <div class="top-box">
+                        <i class="fa-solid fa-list"></i>
+                        <p>Playlists</p>
+                    </div>
+
+                </div>
+
+                <div class="activity-section">
+                    <h2>MY LIBRARY</h2>
+                    <div class="activity-box">
+                        <i class="fa-solid fa-download"></i>
+                        <p>Downloads</p>
+                    </div>
+                    <div class="activity-box">
+                        <i class="fa-solid fa-record-vinyl"></i>
+                        <p>Albums</p>
+                    </div>
+                    <div class="activity-box">
+                        <i class="fa-solid fa-microphone"></i>
+                        <p>Artists</p>
+                    </div>
+                </div>
+
+
+                <div class="playlist-section">
+                    <h2 class="playlist-title">PLAYLISTS</h2>
+
+                    <div class="playlist-box active">
+                        <p class="playlist-title"> Vibes Only</p>
+                        <p class="playlist-info">45 songs · 95 mins</p>
+                    </div>
+
+                    <div class="playlist-box">
+                        <p class="playlist-title">Workout</p>
+                        <p class="playlist-info">23 songs · 40 mins</p>
+                    </div>
+
+                    <div class="playlist-box">
+                        <p class="playlist-title">Weekend Warm-up</p>
+                        <p class="playlist-info">45 songs · 95 mins</p>
+                    </div>
+
+                    <div class="playlist-box">
+                        <p class="playlist-title">Golden Hour </p>
+                        <p class="playlist-info">45 songs · 95 mins</p>
+                    </div>
+
+                    <div class="playlist-box">
+                        <p class="playlist-title">Sunset Song</p>
+                        <p class="playlist-info">23 songs · 40 mins</p>
+                    </div>
+                </div>
+
+                <button>+ New Playlist</button>
+
+            </div>
+            <div class="main-content">
+                <div class="topbar">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search song, artists, albums or podcast">
+                        <span class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                    <div class="icon-button"> <i class="fa-solid fa-tv"></i></div>
+                    <div class="avatar"></div>
+                </div>
+                <div class="banner">
+                    <span style="font-size: 40px;">🎵</span>
+                    <div>
+                        <h2>Chill Vibes</h2>
+                        <p>Relax and enjoy these songs.</p>
+                        <button class="play-btn">Play Now</button>
+                    </div>
+                </div>
+
+                <div class="songs-container">
+                    <div class="song-list">
+                        <h3>All Songs</h3>
+
+                        <div class="song-row">
+                            <div class="thumb art-1"></div>
+                            <div>
+                                <p class="song-title">California Love</p>
+                                <p class="song-artist">Cheema Y</p>
+                            </div>
+                            <span class="time">02:37</span>
+                        </div>
+
+                        <div class="song-row">
+                            <div class="thumb art-2"></div>
+                            <div>
+                                <p class="song-title">Expresso</p>
+                                <p class="song-artist">Sabrina Carpenter</p>
+                            </div>
+                            <span class="time">02:21</span>
+                        </div>
+
+                        <div class="song-row">
+                            <div class="thumb art-3"></div>
+                            <div>
+                                <p class="song-title">Blue Eyes</p>
+                                <p class="song-artist">Honey Singh</p>
+                            </div>
+                            <span class="time">02:56</span>
+                        </div>
+
+                        <div class="song-row">
+                            <div class="thumb art-4"></div>
+                            <div>
+                                <p class="song-title">Die for you</p>
+                                <p class="song-artist">The Weekend</p>
+                            </div>
+                            <span class="time">02:37</span>
+                        </div>
+
+                        <div class="song-row">
+                            <div class="thumb art-5"></div>
+                            <div>
+                                <p class="song-title">You Belong with Me</p>
+                                <p class="song-artist">Taylor Swift</p>
+                            </div>
+                            <span class="time">02:56</span>
+                        </div>
+                        <div class="song-row">
+                            <div class="thumb art-6"></div>
+                            <div>
+                                <p class="song-title">Perfect</p>
+                                <p class="song-artist">Ed Sheeran</p>
+                            </div>
+                            <span class="time">02:56</span>
+                        </div>
+                        <div class="song-row">
+                            <div class="thumb art-7"></div>
+                            <div>
+                                <p class="song-title">Beintehaa</p>
+                                <p class="song-artist">Arooh</p>
+                            </div>
+                            <span class="time">02:56</span>
+                        </div>
+
+                    </div>
+                    <div class="suggestions">
+                        <h3>Suggestions</h3>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-1"></div>
+                            <div>
+                                <p class="song-title">Baby </p>
+                                <p class="song-artist">Justin Beiber</p>
+                            </div>
+                            <span class="time">02:48</span>
+                        </div>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-2"></div>
+                            <div>
+                                <p class="song-title">Tutor</p>
+                                <p class="song-artist">Cheema Y</p>
+                            </div>
+                            <span class="time">04:18</span>
+                        </div>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-3"></div>
+                            <div>
+                                <p class="song-title">Teri Ore</p>
+                                <p class="song-artist">Shreya Ghoshal</p>
+                            </div>
+                            <span class="time">03:11</span>
+                        </div>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-4"></div>
+                            <div>
+                                <p class="song-title">Khat</p>
+                                <p class="song-artist">Navjot Ahuja</p>
+                            </div>
+                            <span class="time">04:10</span>
+                        </div>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-5"></div>
+                            <div>
+                                <p class="song-title">Mercy</p>
+                                <p class="song-artist">Baadshah</p>
+                            </div>
+                            <span class="time">02:52</span>
+                        </div>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-6"></div>
+                            <div>
+                                <p class="song-title">Datlight</p>
+                                <p class="song-artist">Taylor Swift</p>
+                            </div>
+                            <span class="time">02:52</span>
+                        </div>
+
+                        <div class="suggestion-row">
+                            <div class="thumb art-7"></div>
+                            <div>
+                                <p class="song-title">Liar</p>
+                                <p class="song-artist">Camila Cabello</p>
+                            </div>
+                            <span class="time">03:01</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="popular-artists">
+                    <h3>Popular Artists</h3>
+                    <div class="artist-list">
+                        <div class="artist-card">
+                            <div class="artist-avatar art-1"></div>
+                            <p class="artist-name">Taylor Swift</p>
+                            <p class="artist-followers">9.8M followers</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-2"></div>
+                            <p class="artist-name">Sabrina Carpenter</p>
+                            <p class="artist-followers">2.4M followers</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-3"></div>
+                            <p class="artist-name">Ed Sheeran</p>
+                            <p class="artist-followers">4.6M followers</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-4"></div>
+                            <p class="artist-name">Honey Singh</p>
+                            <p class="artist-followers">3.2M followers</p>
+                        </div>
+
+
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-5"></div>
+                            <p class="artist-name">Shreya Ghoshal</p>
+                            <p class="artist-followers">1.8M followers</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-5"></div>
+                            <p class="artist-name">Camela Cabello</p>
+                            <p class="artist-followers">9.2M followers</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-6"></div>
+                            <p class="artist-name">Baadshah</p>
+                            <p class="artist-followers">2.2M followers</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <div class="artist-avatar art-7"></div>
+                            <p class="artist-name">The Weekend</p>
+                            <p class="artist-followers">5.4M followers</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="icon-button"></div>
-        <div class="avatar"></div>
     </div>
-
-    <div class="body-wrap">
-
-    <div class="sidebar">
-        <div class="top-section">
-            <h1> Music</h1>
-
-            <div class="top-box">
-                <p>Home</p>
-            </div>
-
-            <div class="top-box">
-                <p>Discover</p>
-            </div>
-
-            <div class="top-box">
-                <p> Liked Songs</p>
-            </div>
-
-            <div class="top-box">
-                <p>Playlists</p>
-            </div>
-
-        </div>
-
-        <div class="activity-section">
-            <h2>MY LIBRARY</h2>
-            <div class="activity-box">
-                <p>Downloads</p>
-            </div>
-            <div class="activity-box">
-                <p>Albums</p>
-            </div>
-            <div class="activity-box">
-                <p>Artists</p>
+    <div class="player-bar">
+        <div class="player-track">
+            <div class="thumb art-1"></div>
+            <div>
+                <p class="song-title">August</p>
+                <p class="song-artist">Taylor Swift</p>
             </div>
         </div>
 
-
-        <div class="playlist-section">
-            <h2 class="playlist-title">PLAYLISTS</h2>
-
-            <div class="playlist-box active">
-                <p class="playlist-title">Chill Vibes</p>
-                <p class="playlist-info">45 songs · 95 mins</p>
+        <div class="player-controls">
+            <div class="control-buttons">
+                <i class="fa-solid fa-backward-step"></i>
+                <button class="player-play-btn"><i class="fa-solid fa-play"></i></button>
+                <i class="fa-solid fa-forward-step"></i>
             </div>
-
-            <div class="playlist-box">
-                <p class="playlist-title">Workout</p>
-                <p class="playlist-info">23 songs · 40 mins</p>
-            </div>
-
-            <div class="playlist-box">
-                <p class="playlist-title">Roadtrip Mix</p>
-                <p class="playlist-info">45 songs · 95 mins</p>
-            </div>
-
-            <div class="playlist-box">
-                <p class="playlist-title">Party </p>
-                <p class="playlist-info">45 songs · 95 mins</p>
-            </div>
-
-            <div class="playlist-box">
-                <p class="playlist-title">Sunset Song</p>
-                <p class="playlist-info">23 songs · 40 mins</p>
+            <div class="progress-row">
+                <span>00:58</span>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <span>03:11</span>
             </div>
         </div>
-
-        <button>+ New Playlist</button>
-
+        <div class="volume-control">
+            <i class="fa-solid fa-volume-high" id="volumeIcon"></i>
+            <input type="range" id="volumeSlider" min="0" max="100" value="100">
+        </div>
     </div>
-    <div class="main-content">
-     <div class="banner">
-    <span style="font-size: 40px;">🎵</span>
-    <div>
-      <h2>Chill Vibes</h2>
-      <p>Relax and enjoy these calm songs.</p>
-      <button class="play-btn">Play Now</button>
-    </div>
-  </div>
-
-   <div class="songs-container">
-
-   
-    <div class="song-list">
-      <h3>All Songs</h3>
-      <table>
-        <tr>
-          <td>  Tutor</td>
-          <td class="time">03:24</td>
-        </tr>
-        <tr>
-          <td>August</td>
-          <td class="time">03:02</td>
-        </tr>
-        <tr>
-          <td>Khamoshiyaan</td>
-          <td class="time">04:17</td>
-        </tr>
-        <tr>
-          <td>Perfect</td>
-          <td class="time">04:23</td>
-        </tr>
-        <tr>
-          <td>Senorita</td>
-          <td class="time">03:09</td>
-        </tr>
-        <tr>
-          <td>California Love</td>
-          <td class="time">03:18</td>
-        </tr>
-      </table>
-    </div>
-    </div>
-</div>
-</div>
-</div>
 </body>
 
 </html>

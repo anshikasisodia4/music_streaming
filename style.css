@@ -47,7 +47,7 @@ body {
     flex: 1;
     display: flex;
     align-items: center;
-    border: 1px solid #333;
+    border: 1px solid #c2b7b7;
     border-radius: 30px;
     padding: 14px 20px;
 }
@@ -62,11 +62,11 @@ body {
 }
 
 .search-box input::placeholder {
-    color: gray;
+    color:white;
 }
 
 .search-icon {
-    color: gray;
+    color:white;
     font-size: 18px;
     margin-left: 10px;
 }
@@ -156,6 +156,7 @@ body {
 
 .banner {
     background-color: #1a0a29;
+    
     padding: 30px;
     border-radius: 10px;
     display: flex;
@@ -165,12 +166,13 @@ body {
 }
 
 .banner h2 {
-    margin: 0;
+    margin:2;
+    color: white;
     font-size: 24px;
 }
 
 .banner p {
-    color: #cfc7db;
+    color:white;
 }
 
 h1 {

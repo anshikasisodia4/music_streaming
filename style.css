@@ -245,6 +245,10 @@ h2 {
     cursor: pointer;
 }
 
+.play-btn:hover {
+    background-color: rgb(216, 115, 197);
+    transform: scale(1.05);
+}
 .songs-container {
     display: flex;
     gap: 12px;

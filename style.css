@@ -28,6 +28,7 @@ body {
     align-items: center;
     gap: 20px;
 }
+
 .top-box,
 .activity-box {
     display: flex;
@@ -126,7 +127,13 @@ body {
     border-radius: 8px;
     margin-bottom: 10px;
 }
-
+.section-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: gray;
+    margin-bottom: 10px;
+}
 .playlist-box.active {
     border-left: 4px solid hotpink;
 }
@@ -213,6 +220,7 @@ button {
     flex: 1;
     min-width: 0;
 }
+
 .song-row {
     display: flex;
     align-items: center;
@@ -221,7 +229,7 @@ button {
     border-bottom: 1px solid #333;
 }
 
-.song-row > div {
+.song-row>div {
     flex: 1;
     min-width: 0;
 }
@@ -304,7 +312,7 @@ button {
     justify-content: space-between;
     gap: 40px;
     padding: 16px 40px;
-
+    background: rgba(10, 6, 20, 0.6);
     backdrop-filter: blur(20px);
 
 }
@@ -316,11 +324,7 @@ button {
     flex: 1;
     min-width: 0;
 }
-.player-bar {
-    background: rgba(10, 6, 20, 0.6);
-    backdrop-filter: blur(20px);
-    
-}
+
 .player-controls {
     flex: 2;
     display: flex;
@@ -385,6 +389,7 @@ button {
     color: #ffffff;
     font-size: 16px;
 }
+
 .popular-artists {
     margin-top: 32px;
     padding-bottom: 120px;

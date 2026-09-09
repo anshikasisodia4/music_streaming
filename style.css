@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:rgb(3, 3, 24);
+    background-color: rgb(3, 3, 24);
 
     height: 100%;
     margin: 0;
@@ -46,10 +46,7 @@ body {
     border-radius: 8px;
     margin-bottom: 10px;
 }
-.top-box:hover {
-    background-color: #261639;
-    transform: translateX(1px);
-}
+
 
 .activity-section {
     margin-bottom: 10px;
@@ -62,10 +59,6 @@ body {
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 10px;
-}
-.activity-box:hover {
-    background-color:  #261639;
-    transform: translateX(1px);
 }
 
 .top-box i,
@@ -81,10 +74,6 @@ body {
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 10px;
-}
-  .playlist-box:hover {
-    background-color: #261639;
-    transform: translateX(4px);
 }
 
 .section-label {
@@ -210,8 +199,10 @@ button {
 }
 
 .banner h2 {
+    margin: 2;
     margin: 0 0 8px 0;
     color: white;
+    font-size: 24px;
     font-size: 56px;
     font-weight: 800;
     line-height: 1.1;
@@ -245,10 +236,6 @@ h2 {
     cursor: pointer;
 }
 
-.play-btn:hover {
-    background-color: rgb(216, 115, 197);
-    transform: scale(1.05);
-}
 .songs-container {
     display: flex;
     gap: 12px;
@@ -318,13 +305,7 @@ h2 {
     font-size: 13px;
     color: #999;
 }
-.song-row:hover,
-.suggestion-row:hover {
-    background-color: #1a0a29;
-}.song-row:hover .thumbnail,
-.suggestion-row:hover .thumbnail {
-    transform: scale(1.08);
-}
+
 .song-title {
     font-size: 14px;
     font-weight: 600;
@@ -391,9 +372,6 @@ h2 {
     color: #999;
     margin-top: 2px;
 }
-
-
-
 
 .player-bar {
     position: fixed;
@@ -490,5 +468,4 @@ h2 {
     border-radius: 8px;
     flex-shrink: 0;
     background-size: cover;
-    background-position: center;
-}
+    background-position: center;}

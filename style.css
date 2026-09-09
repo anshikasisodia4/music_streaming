@@ -109,8 +109,6 @@ button {
     cursor: pointer;
 }
 
-
-
 .main-content {
     flex: 1;
     padding: 20px;
@@ -238,8 +236,10 @@ h2 {
 
 .songs-container {
     display: flex;
+    flex-direction: row;
     gap: 12px;
     align-items: flex-start;
+    width: 100%;
 }
 
 .song-list {
@@ -277,7 +277,7 @@ h2 {
 
 .suggestions {
     flex: 1;
-    min-width: 260px;
+    min-width: 0;
 }
 
 .suggestions h3 {
@@ -320,6 +320,7 @@ h2 {
 .popular-artists {
     margin-top: 32px;
     padding-bottom: 120px;
+    width: 100%;
 }
 
 .popular-artists h3 {
@@ -468,4 +469,5 @@ h2 {
     border-radius: 8px;
     flex-shrink: 0;
     background-size: cover;
-    background-position: center;}
+    background-position: center;
+}
